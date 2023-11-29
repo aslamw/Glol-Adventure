@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Reggae_one from "../../Fonts/Reggae_One/ReggaeOne-Regular.ttf"
 
 export const FormRegister = styled.form `
     display: flex;
@@ -6,13 +7,25 @@ export const FormRegister = styled.form `
     justify-content: center;
     align-items: center;
 
-    background-color: blue;
-    
-    &input {
+    background-color: #1C1B1B;
+
+    input{
         margin-top: 10px;
-        margin: 100px;
-        height: 20%;
+        border-radius: 5px;
+        border: #22B00A 2px solid;
         
     }
+    input[type="button"]{
+        border-radius: 30px;
+        padding: 2px;
+        background-color: #22B00A;
+        @font-face {
+            font-family:Reggae One ;
+            src: url(${Reggae_one});
+        }
+
+    }
+    
+   
 
 `
