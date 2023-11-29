@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Reggae_one from "../../Fonts/Reggae_One/ReggaeOne-Regular.ttf"
 
 export const FormRegister = styled.form `
     display: flex;
@@ -19,11 +18,6 @@ export const FormRegister = styled.form `
         border-radius: 30px;
         padding: 2px;
         background-color: #22B00A;
-        @font-face {
-            font-family:Reggae One ;
-            src: url(${Reggae_one});
-        }
-
     }
     
    
