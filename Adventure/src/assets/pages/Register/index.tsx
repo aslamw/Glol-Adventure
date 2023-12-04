@@ -6,14 +6,30 @@ export const Register: React.FC = () => {
     return(
         <div>
             <FormRegister>
-                <input type="text" name="" id="name" placeholder="Nome"/>
-                <input type="date" name="" id="date" placeholder="Data de nascimento"/>
-                <input type="email" name="" id="email" placeholder="Digite novamente"/>
-                <input type="email" name="" id="rep_email" placeholder="E-mail"/>
-                <input type="text" name="" id="senha" placeholder="Senha"/>
-                <input type="text" name="" id="rep_senha" placeholder="Digite novamente"/>
-                <input type="button" value="Registrar" />
-                
+                <div className="ball"></div>
+                <form>
+                    <input type="text" name="" id="name" placeholder="Nome"/>
+                    
+                    <input type="email" name="" id="rep_email" placeholder="E-mail"/>
+                    <input type="email" name="" id="email" placeholder="Digite novamente"/>
+
+                    <input type="text" name="" id="senha" placeholder="Senha"/>
+                    <input type="text" name="" id="rep_senha" placeholder="Digite novamente"/>
+
+                    <input type="date" name="" id="date" placeholder="Data de nascimento"/>
+                    <input type="button" value="Registrar" />
+                </form>  
+                <div className="onda">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    
+                        <path className="wave1" fill="#125A06"  d="M0,192L24,208C48,224,96,256,144,229.3C192,203,240,117,288,96C336,75,384,117,432,117.3C480,117,528,75,576,64C624,53,672,75,720,112C768,149,816,203,864,197.3C912,192,960,128,1008,96C1056,64,1104,64,1152,85.3C1200,107,1248,149,1296,154.7C1344,160,1392,128,1416,112L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+
+                        <path className="wave2" fill="#22E303"  d="M0,160L24,165.3C48,171,96,181,144,160C192,139,240,85,288,85.3C336,85,384,139,432,160C480,181,528,171,576,160C624,149,672,139,720,133.3C768,128,816,128,864,112C912,96,960,64,1008,80C1056,96,1104,160,1152,160C1200,160,1248,96,1296,85.3C1344,75,1392,117,1416,138.7L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+
+                        <path className="wave3" fill="#125A06"  d="M0,224L30,218.7C60,213,120,203,180,208C240,213,300,235,360,234.7C420,235,480,213,540,186.7C600,160,660,128,720,138.7C780,149,840,203,900,240C960,277,1020,299,1080,293.3C1140,288,1200,256,1260,218.7C1320,181,1380,139,1410,117.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                        
+                    </svg>
+                </div> 
             </FormRegister>
         </div>
     )
